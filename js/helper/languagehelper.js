@@ -17,7 +17,8 @@ const locales = {
     SPANISH: "es",
     SWEDISH: "sv",
     TURKISH: "tr",
-    KOREAN: "kr"
+    KOREAN: "kr",
+    CHINESE: "cn"
 }
 
 const defaultLocale = locales.ENGLISH;
