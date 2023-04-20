@@ -975,7 +975,7 @@ function setIOListeners() {
     let inputElements = $$("#details-panel input, #details-panel textarea, #details-panel select, #details-panel #translation-textarea-formatted");
     for (const inputElement of inputElements) {
         inputElement.oninput = () => highlightSaveButton();
-        inputElement.onkeydown = event => {
+        inputElement.onkeypress = event => {
             if (event.code == "Escape") {
                 event.preventDefault();
                 document.activeElement.blur();
