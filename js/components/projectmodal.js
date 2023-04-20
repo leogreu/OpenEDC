@@ -132,15 +132,6 @@ class ProjectModal extends HTMLElement {
                                 </div>
                             </div>
                             <div class="notification is-link is-light">
-                                <h1 class="title is-4" i18n="export-data"></h1>
-                                <p class="mb-5" i18n="export-data-hint"></p>
-                                <div class="columns is-centered is-multiline">
-                                    <button class="button is-link column is-6 p-1 is-small" onclick="exportODM()" i18n="export-project"></button>
-                                    <button class="button column is-6 p-1 is-small" onclick="exportODMMetadata()" i18n="export-metadata"></button>
-                                    <button class="button column is-6 p-1 is-small" onclick="exportCSV()" i18n="export-clinicaldata"></button>
-                                </div>
-                            </div>
-                            <div class="notification is-link is-light">
                                 <h1 class="title is-4" i18n="import-data"></h1>
                                 <p class="mb-5" i18n="import-data-hint"></p>
                                 <div class="columns is-centered is-multiline">

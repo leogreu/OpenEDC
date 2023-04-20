@@ -12,11 +12,11 @@ class ExportModal extends HTMLElement {
                     <div class="notification is-link is-light">
                         <h1 class="title is-4" i18n="export-data"></h1>
                         <p class="mb-5" i18n="export-data-hint"></p>
-                        <div class="is-flex is-centered is-flex-wrap-wrap">
-                            <button class="button is-link column is-6 p-1 is-small" onclick="exportODM()" i18n="export-project"></button>
-                            <button class="button column is-6 p-1 is-small" onclick="exportODMMetadata()" i18n="export-metadata"></button>
-                            <button class="button column is-6 p-1 is-small" onclick="exportCSV()" i18n="export-clinicaldata"></button>
-                            <button class="button column is-6 p-1 is-small" onclick="exportCSVZip()" i18n="export-clinicaldata-zip"></button>
+                        <div class="buttons are-small">
+                            <button class="button is-link is-flex-grow-1" onclick="exportODM()" i18n="export-project"></button>
+                            <button class="button is-flex-grow-1" onclick="exportODMMetadata()" i18n="export-metadata"></button>
+                            <button class="button is-flex-grow-1" onclick="exportCSV()" i18n="export-clinicaldata"></button>
+                            <button class="button is-flex-grow-1" onclick="exportCSVZip()" i18n="export-clinicaldata-zip"></button>
                         </div>
                     </div>
                 </div>
