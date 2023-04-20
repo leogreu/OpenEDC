@@ -13,7 +13,7 @@ import * as pluginRegistrar from "../plugins/registrar.js";
 import * as manifestHelper from "./helper/manifesthelper.js";
 import * as repositoryHelper from "./helper/repositoryhelper.js";
 
-const appVersion = "0.8.1";
+const appVersion = "0.8.3";
 
 export const appModes = {
     METADATA: "metadata",
