@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.8.2
+
+- Add Korean localization (contributed [in this PR](https://github.com/imi-muenster/OpenEDC/pull/5), thanks to @danbom)
+
 ## 0.8.1
 
 - Code list items can now be entered without explicitly stating coded values
