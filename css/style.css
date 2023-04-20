@@ -45,7 +45,7 @@ html, body {
     border-radius: 6px;
     border-top: none;
     top: calc(100% - 4px);
-    max-height: 500px;
+    max-height: 600px;
     overflow-y: auto;
 }
 
@@ -548,6 +548,7 @@ a.panel-block:hover {
     /*overflow-wrap: anywhere;*/
     overflow-wrap: break-word;
     -webkit-line-break: after-white-space;
+    line-break: after-white-space;
 }
 
 .has-text-align-center {
